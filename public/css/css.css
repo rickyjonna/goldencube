@@ -1,0 +1,391 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: "Poppins";
+}
+
+.navbar {
+    background: #160b0b;
+    height: 75px;
+}
+
+.navbar a {
+    color: #eeead6;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    background: linear-gradient(
+        90deg,
+        #a57430 0%,
+        #c59c55 27.04%,
+        #d1b56b 52.41%,
+        #b58943 83.56%,
+        #e8d88a 98.55%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transform: scale(1.02);
+}
+
+#dropdownmenu:hover {
+    color: #c59c55;
+    transform: scale(1.02);
+}
+
+#dropdownmenu:focus {
+    color: #c59c55;
+}
+
+#dropdownitem {
+    color: #050511;
+    font-weight: bold;
+}
+
+.btn-hijau1 {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+body {
+    padding-top: 75px;
+}
+
+.bg-kelapa1 {
+    background: #0a0909;
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+    background-size: 20% auto, 20% auto;
+    background-image: url("/images/kelapa1.png"), url("/images/kelapa2.png");
+}
+
+.bg-gradient {
+    position: relative;
+    z-index: 1;
+    color: #201f1f;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 2px 5px;
+    overflow: hidden;
+}
+
+.bg-gradient::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+        to right,
+        #a57430,
+        #c59c55,
+        #d1b56b,
+        #b58943,
+        #e8d88a
+    );
+    z-index: -1;
+}
+
+.warnagradient1 {
+    background-image: linear-gradient(
+        to right,
+        #a57430,
+        #c59c55,
+        #d1b56b,
+        #b58943,
+        #e8d88a
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.btn-grad1 {
+    width: 15%;
+    min-width: 100px;
+    background-image: linear-gradient(
+        to bottom,
+        #eeead6 0%,
+        #aa7d23 51%,
+        #2c1d01 100%
+    );
+    text-align: center;
+    font-weight: bold;
+    border-image: linear-gradient(
+            to right,
+            #c6963f,
+            #b08028,
+            #e0b153,
+            #d3a86c,
+            #f2c75c
+        )
+        1;
+}
+
+.btn-grad1 a {
+    color: #fffcea;
+}
+
+.btn-grad2 {
+    width: 15%;
+    min-width: 100px;
+    background-image: linear-gradient(to bottom, #ffebea 0%, #0a0909 50%);
+    text-align: center;
+    border-image: linear-gradient(
+            to right,
+            #c6963f,
+            #b08028,
+            #e0b153,
+            #d3a86c,
+            #f2c75c
+        )
+        1;
+    color: transparent;
+}
+
+.bg-api1 {
+    background-image: url("/images/api1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border-gradient1 {
+    border: 2.5px solid;
+    border-image: linear-gradient(
+            to right,
+            #c6963f,
+            #b08028,
+            #e0b153,
+            #d3a86c,
+            #f2c75c
+        )
+        1;
+}
+
+.bg-api1 p {
+    color: #eeead6;
+    font-family: "Poppins";
+}
+
+.btn-grad3 {
+    width: 50%;
+    min-width: 100px;
+    background-image: linear-gradient(
+        to bottom,
+        #eeead6 0%,
+        #aa7d23 51%,
+        #2c1d01 100%
+    );
+    text-align: center;
+    font-weight: bold;
+    color: #fffcea;
+}
+
+.bg-api2 {
+    background-image: url("/images/api2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.warnagradient2 {
+    background-image: linear-gradient(
+        to bottom,
+        #ffc000 0%,
+        #b09950 25%,
+        #e0af19 50%,
+        #fff2ca 75%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.warnacokelat1 {
+    color: #d3a86c;
+}
+
+.warnaputih1 {
+    color: #eeead6;
+}
+
+.containerngambang {
+    position: relative;
+    text-align: center;
+}
+
+.line {
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+        to right,
+        #c6963f,
+        #b08028,
+        #e0b153,
+        #d3a86c,
+        #f2c75c
+    );
+    transform: translateY(-50%);
+}
+
+.box1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.bg-kuning1 {
+    background-image: url("/images/kuning1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-arang1 {
+    background-image: url("/images/arang1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-gradient1 {
+    background-image: linear-gradient(to bottom, #000000 50%, #d3a86c 100%);
+}
+
+.bg-hijau1 {
+    background-image: linear-gradient(
+        to bottom,
+        #d1d1b8 0%,
+        #8c8560 30%,
+        #c0be7f 60%,
+        #49472d 90%
+    );
+}
+
+.btn-cokelat1 {
+    width: 10%;
+    min-width: 100px;
+    background-image: linear-gradient(
+        to right,
+        #c6963f,
+        #b08028,
+        #e0b153,
+        #d3a86c,
+        #f2c75c
+    );
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    border-color: #000000;
+    border-radius: 10px;
+}
+
+/* aboutus */
+.bg-arangapi1 {
+    background-image: url("/images/arangapi1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.warnagradient3 {
+    background-image: linear-gradient(
+        to bottom,
+        #70706f 0%,
+        #a1a2a3 25%,
+        #8e8d8d 50%,
+        #7d7d7a 75%,
+        #b3b6b5 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.bg-kelapa2 {
+    background: #160b0b;
+    background-repeat: no-repeat;
+    background-position: left top, right top, center bottom;
+    background-size: 20% auto, 20% auto, 20% auto;
+    background-image: url("/images/kelapa1.png"), url("/images/kelapa2.png"),
+        url("/images/logoblursetengah.png");
+}
+
+.garisgradient1 {
+    height: 2px;
+    border: 0;
+    background: linear-gradient(
+        to right,
+        #a57430,
+        #c59c55,
+        #d1b56b,
+        #b58943,
+        #e8d88a
+    );
+}
+
+.bg-container1 {
+    background-image: url("/images/container1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.selected-image {
+    border: 2px solid #ffc107; /* Warna border warning */
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.gallery {
+    background: transparent;
+}
+
+.gallery-cell {
+    width: 35%;
+    height: 80vh;
+    margin-right: 10px;
+    background: #3f2f2f;
+    counter-increment: gallery-cell;
+}
+
+.hoverimage:hover {
+    transform: scale(1.15) rotate(5deg);
+}
